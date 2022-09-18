@@ -1,0 +1,22 @@
+.menu {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 5px;
+}
+.underline {
+  width: 7rem;
+  height: 0.25rem;
+  background: #49a6e9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

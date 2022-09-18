@@ -1,0 +1,50 @@
+.inner-section {
+  width: 80vw;
+  display: grid;
+  margin: 0px auto;
+  gap: 1rem;
+  align-items: start;
+}
+
+@media screen and (min-width: 600px) {
+  .inner-section {
+    margin: 1.5rem auto;
+    /* grid-template-columns: 1fr 1fr; */
+    width: 75vw;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.list {
+  display: grid;
+  max-width: 25rem;
+  margin: 10px auto;
+}
+
+.img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 4px solid #282c34;
+}
+
+.header {
+  margin: 0 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #282c34;
+}
+
+.price {
+  color: #49a6e9;
+  font-weight: bold;
+}
+
+.menu-title {
+  font-family: "Courier New", Courier, monospace;
+}
+.desc {
+  margin: 6px 0;
+  font-size: 0.85rem;
+  font-family: "Courier New", Courier, monospace;
+}
